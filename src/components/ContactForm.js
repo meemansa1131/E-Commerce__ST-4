@@ -24,7 +24,7 @@ const ContactForm = () => {
       action={FORM_ENDPOINT}
       onSubmit={handleSubmit}
       method="POST"
-      target="_blank"
+      target="_blank" class="formm"
     >
       <div>
         <input type="text" placeholder="Your name" name="name" required />
@@ -36,7 +36,7 @@ const ContactForm = () => {
         <textarea placeholder="Query?" name="query" required />
       </div>
       <div>
-        <button type="submit"> Send Query</button>
+        <button type="submit" class="form_button"> Send Query</button>
       </div>
     </form>
   );

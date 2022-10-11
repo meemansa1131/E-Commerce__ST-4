@@ -1,8 +1,8 @@
 :root {
  --mainBlue:#646469;
- --lightBlue:#429fd4;
- --mainWhite:#94dbf0;
- --mainDark:#566ba1;
+ --lightBlue:#202528;
+ --mainWhite:#d2dadc;
+ --mainDark:#363a46;
  --mainYellow:#151413;
 }
 body{
@@ -38,3 +38,23 @@ body{
   font-size:1.2rem;
   color:var(--mainYellow);
 }
+
+.formm{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin:10rem;
+
+}
+
+.form_button{
+  border:solid 1px grey ;
+  background-color: #2c414e;
+  color:white;
+}
+
+.formm div{
+  margin:5px;
+}
+
